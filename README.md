@@ -8,7 +8,10 @@ This repository provides a reference implementation of *ICAF* as described in th
 The ICAF method learns the visual focus of attentions of a group of people collectively from their videos. Please check the [project page](https://home.cs.dartmouth.edu/~cy/icaf/) for more details. 
 
 ### Basic Usage
-
+```
+python icaf.py --clf=CLASSIFIER_NAME
+```
+where CLASSIFIER_NAME is one of RF, LINSVM, LR, and NB, default: RF
 #### Dependencies
 python3, scikit-learn, numpy, scipy
 
